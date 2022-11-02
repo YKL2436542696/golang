@@ -13,6 +13,7 @@ func traveseChannel() {
 	for ele := range ch { // 遍历并取走管道中的元素
 		fmt.Println(ele)
 	}
+
 	fmt.Println("bye bye")
 }
 

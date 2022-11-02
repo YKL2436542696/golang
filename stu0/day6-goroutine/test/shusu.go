@@ -5,9 +5,11 @@ import (
 	"time"
 )
 
+// 取素数
+
 //向intChan放入1-8000个数
 func putNum(intChan chan int) {
-	for i := 1; i <= 8000; i++ {
+	for i := 1; i <= 200; i++ {
 		intChan <- i
 	}
 	//关闭intChan
@@ -47,8 +49,8 @@ func primeNum(intChan chan int, primeChan chan int, exitChan chan bool) {
 
 func main() {
 
-	intChan := make(chan int, 1000)
-	primeChan := make(chan int, 2000) //放入结果
+	intChan := make(chan int, 100)
+	primeChan := make(chan int, 200) //放入结果
 	//标识退出的管道
 	exitChan := make(chan bool, 4) //4个
 

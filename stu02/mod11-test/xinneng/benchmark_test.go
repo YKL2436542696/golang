@@ -1,7 +1,7 @@
 package xinneng_test
 
 import (
-	"github.com/cncamp/golang/stu2/mod11-test/xinneng"
+	"github.com/cncamp/golang/stu02/mod11-test/xinneng"
 	"testing"
 )
 

@@ -66,11 +66,11 @@ func main() {
 		readFileCh <- struct{}{}
 	}
 
-	go readFile("E:\\go\\src\\golang\\stu\\mod03_merge_file\\1.txt")
-	go readFile("E:\\go\\src\\golang\\stu\\mod03_merge_file\\2.txt")
-	go readFile("E:\\go\\src\\golang\\stu\\mod03_merge_file\\3.txt")
+	go readFile("E:\\go\\src\\golang\\stu01\\mod03_merge_file\\1.txt")
+	go readFile("E:\\go\\src\\golang\\stu01\\mod03_merge_file\\2.txt")
+	go readFile("E:\\go\\src\\golang\\stu01\\mod03_merge_file\\3.txt")
 
-	go writeFile("E:\\go\\src\\golang\\stu\\mod03_merge_file\\big.txt")
+	go writeFile("E:\\go\\src\\golang\\stu01\\mod03_merge_file\\big.txt")
 
 	<-writeFileCh
 }

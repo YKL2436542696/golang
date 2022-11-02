@@ -47,7 +47,7 @@ func reflectTest02(b interface{}) {
 	//将interface{}通过断言转成需要的类型
 	stu, ok := iV.(Student)
 	if ok {
-		fmt.Printf("stu.Name=%v\n", stu.Name)
+		fmt.Printf("stu01.Name=%v\n", stu.Name)
 	}
 }
 

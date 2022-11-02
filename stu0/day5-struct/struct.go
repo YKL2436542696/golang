@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"github.com/cncamp/golang/stu0/day5/mode1"
+	"github.com/cncamp/golang/stu0/day5-struct/mode1"
 	"io"
 	"io/ioutil"
 	"os"

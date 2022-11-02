@@ -1,7 +1,7 @@
 package danyuan_test
 
 import (
-	"github.com/cncamp/golang/stu2/mod11-test/danyuan"
+	"github.com/cncamp/golang/stu02/mod11-test/danyuan"
 	"testing"
 )
 
